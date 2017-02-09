@@ -1,0 +1,203 @@
+a{text-decoration: none}
+ul,body,input,p,h1,h2,li{margin: 0;padding: 0;list-style: none;}
+img{border: none}
+body{
+    background: #F2F2F2;
+}
+.banner{
+    width: 100%;
+    height:400px;
+    background:url("../image/banner.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 90px;
+}
+.bootstrap{
+    font-size: 60px;
+    font-family: "微软雅黑";
+    padding-top: 150px;
+    text-align: center;
+    padding-bottom: 33px;
+}
+.bootstrap a{
+    display: block;
+    color: #fff;
+    margin: 0 auto;
+}
+.bootstrap a:hover{
+    text-decoration: underline;
+}
+.youzhan{
+    font-size: 34px;
+    color: #fff;
+    text-align: center;
+    font-family: 微软雅黑;
+}
+.link{
+    display: block;
+    width: 80px;
+    height: 70px;
+    background: url("../image/1.png") no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 0 auto;
+    margin-top: 58px;
+}
+.container{
+    width: 100%;
+    padding: 0 15px;
+}
+.content{
+    background:#ffffff;
+    padding:15px;
+    margin-bottom: 30px;
+}
+.content>a{
+    display: block;
+    width: 100%;
+    padding-top:62.5%;
+    position: relative;
+}
+.content>a>img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    position: absolute;
+    left:0;
+    top: 0;
+}
+.content>h2{
+    text-align: center;
+    line-height: 30px;
+}
+.fanye{
+    width: 100%;
+    height: 77px;
+    background: #F2F2F2;
+    float: left;
+}
+.kuai{
+    width: 100%;
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    color: #39414A;
+    font-size: 14px;
+}
+.xiayiye{
+    width: 76px;
+    height: 38px;
+    border: 1px solid #39414A;
+    border-radius: 5px;
+    float: right;
+    margin-top: 1px;
+    text-align: center;
+    line-height: 38px;
+    color: #39414A;
+    font-size: 12px;
+    right: 110px;
+}
+.diyiye{
+    width: 76px;
+    height: 40px;
+    float: left;
+}
+.xiayiye:hover{
+    background: #4A4849;
+    color: #fff;
+    cursor: pointer;
+}
+/*字*/
+.zi{
+    width: 100%;
+    height: 140px;
+    background: #eee;
+    float: left;
+    padding: 44px;
+}
+.ruguo{
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+}
+.zhuming{
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+}
+/*地图*/
+.ditu{
+    width: 100%;
+    height: 221px;
+    border-bottom: 1px solid #303030;
+    background: #202020;
+    float: left;
+}
+.youqing,.women,.zanzhu{
+    width: 33%;
+    height: 221px;
+    float: left;
+}
+.yqlj,.bzww,.lzww{
+    width: 300px;
+    height: 62px;
+    border-bottom: 1px solid #303030;
+    float: right;
+    line-height: 100px;
+}
+.jishu,.yuansu{
+    width: 300px;
+    margin: 0 auto;
+}
+.jishu{
+    height: 62px;
+    border-bottom: 1px solid #303030;
+    line-height: 100px;
+}
+.yuansu{
+    height: auto;
+    margin-top: 21px;
+}
+.zzs,.ypy{
+    width: 300px;
+    height: 62px;
+    border-bottom: 1px solid #303030;
+    float: left;
+    line-height: 100px;
+}
+.ditu a{
+    color: #959595;
+    transition: all 0.5s;
+}
+.ditu a:hover{
+    color: #E4E4E4;
+}
+.yuansu>a{
+    display: inline-block;
+    width: auto;
+    height: 25px;
+    border: 1px solid #303030;
+    margin:  5px;
+    padding:0 5px;
+}
+/*备案*/
+.beian{
+    width: 100%;
+    height: 53px;
+    float: left;
+    background: #111;
+    text-align: center;
+    line-height: 53px;
+    font-size: 12px;
+    color: #555;
+}
+.beian a{
+    color: #555;
+}
+.beian a:hover{
+    text-decoration: underline;
+}
